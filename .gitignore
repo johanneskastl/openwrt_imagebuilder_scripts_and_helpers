@@ -13,3 +13,8 @@ openwrt-22.03.5-mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin
 openwrt-22.03.5-mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin.sha256sum
 openwrt-22.03.5-mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin.sig
 openwrt-22.03.5-mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin.ucert
+# image files for EAP245v3
+openwrt-22.03.5-ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin
+openwrt-22.03.5-ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.sha256sum
+openwrt-22.03.5-ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.sig
+openwrt-22.03.5-ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.ucert
