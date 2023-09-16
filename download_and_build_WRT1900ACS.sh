@@ -15,6 +15,14 @@ export PROFILE="linksys_wrt1900acs"
 export SHASUMS_FILE="sha256sums_wrt1900acs"
 
 #
+# Cleanup requested?
+#
+[[ $# == 1 ]] && [[ "$1" == "--clean" ]] && {
+    echo "Cleaning up directory ./${IMAGEBUILDER_FILE_NAME/.tar.xz/}"
+    rm -rf "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}"
+}
+
+#
 # Download and unpack
 #
 
