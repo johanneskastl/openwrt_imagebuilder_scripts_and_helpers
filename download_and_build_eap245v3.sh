@@ -22,13 +22,19 @@ if [[ -d "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}" ]]
 then
    echo "Directory is already existing..."
 else
+    echo "Downloading files..."
 
-    [[ -f ./"${SHASUMS_FILE}" ]] || wget "${DOWNLOAD_URL}/sha256sums"  || exit 5
+    [[ -f ./"${SHASUMS_FILE}" ]] || wget "${DOWNLOAD_URL}/sha256sums" -O ./"${SHASUMS_FILE}"  || exit 5
     [[ -f "./${IMAGEBUILDER_FILE_NAME}" ]] || wget "${DOWNLOAD_URL}/${IMAGEBUILDER_FILE_NAME}" || exit 7
-    
+
+    echo "Validating checksum..."
     grep "${IMAGEBUILDER_FILE_NAME}" "${SHASUMS_FILE}" | sha256sum -c - || exit 11
     
-    [[ -d "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}" ]] || tar xf "${IMAGEBUILDER_FILE_NAME}" || exit 13
+    [[ -d "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}" ]] || {
+
+        echo "Unpackaging archive"
+        tar xf "${IMAGEBUILDER_FILE_NAME}" || exit 13
+    }
 fi
 
 #
