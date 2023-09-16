@@ -1,3 +1,9 @@
+-kmod-ppp
+-kmod-pppoe
+-kmod-pppox
+-luci-proto-ppp
+-ppp
+-ppp-mod-pppoe
 ath10k-firmware-qca99x0-ct
 base-files
 bash
@@ -55,9 +61,6 @@ kmod-nft-core
 kmod-nft-fib
 kmod-nft-nat
 kmod-nft-offload
-kmod-ppp
-kmod-pppoe
-kmod-pppox
 kmod-slhc
 libblobmsg-json
 libc
@@ -95,7 +98,6 @@ luci-mod-network
 luci-mod-status
 luci-mod-system
 luci-proto-ipv6
-luci-proto-ppp
 luci-ssl
 luci-theme-bootstrap
 mtd
@@ -107,8 +109,6 @@ openssh-server-pam
 openssh-sftp-server
 openwrt-keyring
 opkg
-ppp
-ppp-mod-pppoe
 procd
 procd-seccomp
 procd-ujail
