@@ -1,3 +1,9 @@
+-kmod-ppp
+-kmod-pppoe
+-kmod-pppox
+-luci-proto-ppp
+-ppp
+-ppp-mod-pppoe
 bash
 busybox
 ca-bundle
@@ -32,7 +38,6 @@ kmod-nft-core
 kmod-nft-fib
 kmod-nft-nat
 kmod-nft-offload
-kmod-ppp
 kmod-slhc
 libblobmsg-json
 libc
@@ -70,7 +75,6 @@ luci-mod-network
 luci-mod-status
 luci-mod-system
 luci-proto-ipv6
-luci-proto-ppp
 luci-ssl
 luci-theme-bootstrap
 mtd
