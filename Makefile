@@ -1,4 +1,7 @@
-all : clean eap245v3 wrt1900acs
+all : clean container eap245v3 wrt1900acs
+
+container :
+	podman build -t johanneskastl/openwrt-imagebuilder:alpine-latest .
 
 eap245v3 :
 	./download_and_build_eap245v3.sh
