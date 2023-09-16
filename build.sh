@@ -40,7 +40,7 @@ echo ""
 echo ""
 sleep 1
 
-make image || exit 93
+make image PACKAGES="${PACKAGES}" || exit 93
 
 echo "Finished building the image..."
 
