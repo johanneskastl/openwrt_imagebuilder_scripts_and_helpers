@@ -15,6 +15,14 @@ export PROFILE="tplink_eap245-v3"
 export SHASUMS_FILE="sha256sums_eap245v3"
 
 #
+# Cleanup requested?
+#
+[[ $# == 1 ]] && [[ "$1" == "--clean" ]] && {
+    echo "Cleaning up directory ./${IMAGEBUILDER_FILE_NAME/.tar.xz/}"
+    rm -rf "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}"
+}
+
+#
 # Download and unpack
 #
 
