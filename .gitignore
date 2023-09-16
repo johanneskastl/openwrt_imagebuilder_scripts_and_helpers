@@ -3,4 +3,7 @@
 #
 openwrt-imagebuilder-*.Linux-x86_64/
 openwrt-imagebuilder-*.Linux-x86_64.tar.xz
-sha256sums
+
+# sha256sums files
+sha256sums_eap245v3
+sha256sums_wrt1900acs
