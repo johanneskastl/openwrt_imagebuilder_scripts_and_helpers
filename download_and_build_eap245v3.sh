@@ -12,6 +12,7 @@ export IMAGEBUILDER_FILE_NAME="openwrt-imagebuilder-${OPENWRT_VERSION}-ath79-gen
 export PACKAGE_LIST="Packages_EAP245v3.txt"
 export PATH_TO_IMAGE_TMP="target-mips_24kc_musl/linux-ath79_generic/tmp/"
 export PROFILE="tplink_eap245-v3"
+export SHASUMS_FILE="sha256sums_eap245v3"
 
 #
 # Download and unpack
@@ -22,10 +23,10 @@ then
    echo "Directory is already existing..."
 else
 
-    [[ -f ./sha256sums ]] || wget "${DOWNLOAD_URL}/sha256sums" || exit 5
+    [[ -f ./"${SHASUMS_FILE}" ]] || wget "${DOWNLOAD_URL}/sha256sums"  || exit 5
     [[ -f "./${IMAGEBUILDER_FILE_NAME}" ]] || wget "${DOWNLOAD_URL}/${IMAGEBUILDER_FILE_NAME}" || exit 7
     
-    grep "${IMAGEBUILDER_FILE_NAME}" sha256sums | sha256sum -c - || exit 11
+    grep "${IMAGEBUILDER_FILE_NAME}" "${SHASUMS_FILE}" | sha256sum -c - || exit 11
     
     [[ -d "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}" ]] || tar xf "${IMAGEBUILDER_FILE_NAME}" || exit 13
 fi
