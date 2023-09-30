@@ -1,3 +1,4 @@
+-dnsmasq
 -kmod-ppp
 -kmod-pppoe
 -kmod-pppox
@@ -27,7 +28,6 @@
 bash
 busybox
 diffutils
-dnsmasq
 dropbear
 dropbearconvert
 luci
