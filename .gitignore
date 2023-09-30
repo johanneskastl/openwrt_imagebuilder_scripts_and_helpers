@@ -19,3 +19,8 @@ openwrt-22.03.5-ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin
 openwrt-22.03.5-ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.sha256sum
 openwrt-22.03.5-ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.sig
 openwrt-22.03.5-ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.ucert
+# image files for MikroTik wAP AC
+openwrt-ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin
+openwrt-ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.sha256sum
+openwrt-ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.sig
+openwrt-ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.ucert
