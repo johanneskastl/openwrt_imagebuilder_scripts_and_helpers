@@ -7,6 +7,7 @@ openwrt-imagebuilder-*.Linux-x86_64.tar.xz
 # sha256sums files
 sha256sums_eap245v3
 sha256sums_wrt1900acs
+sha256sums_Mikrotik_wAP_AC
 
 # image files for WRT1900ACS
 openwrt-22.03.5-mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin
