@@ -44,7 +44,7 @@ make image PACKAGES="${PACKAGES}" || exit 93
 
 echo "Finished building the image..."
 
-cp -afv ./build_dir/"${PATH_TO_IMAGE_TMP}"/*squashfs-sysupgrade.bin* ../
+cp -afv ./build_dir/"${PATH_TO_IMAGE_TMP}"/*squashfs-sysupgrade.bin ../
 
 echo "Finished, good bye..."
 exit 0
