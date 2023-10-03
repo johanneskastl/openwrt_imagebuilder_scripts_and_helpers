@@ -21,15 +21,15 @@ export PROFILE="mikrotik_wap-ac"
 # Cleanup requested?
 #
 [[ $# == 1 ]] && [[ "$1" == "--clean" ]] && {
-    echo "Cleaning up directory ./${IMAGEBUILDER_FILE_NAME/.tar.xz/}"
-    rm -rf "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}"
+    echo "Cleaning up directory ./${IMAGEBUILDER_DIR_NAME}"
+    rm -rf "./${IMAGEBUILDER_DIR_NAME}"
 }
 
 ############################################################################################################
 # Download and unpack
 #
 
-if [[ -d "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}" ]]
+if [[ -d "./${IMAGEBUILDER_DIR_NAME}" ]]
 then
    echo "Directory is already existing..."
 else
@@ -41,7 +41,7 @@ else
     echo "Validating checksum..."
     grep "${IMAGEBUILDER_FILE_NAME}" "${SHASUMS_FILE}" | sha256sum -c - || exit 11
     
-    [[ -d "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}" ]] || {
+    [[ -d "./${IMAGEBUILDER_DIR_NAME}" ]] || {
 
         echo "Unpackaging archive"
         tar xf "${IMAGEBUILDER_FILE_NAME}" || exit 13
@@ -52,11 +52,11 @@ fi
 # Copy files into openwrt imagebuilder directory
 #
  
-cp -vf build.sh "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}"
-cp -vf "${PACKAGE_LIST}" "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}"
+cp -vf build.sh "./${IMAGEBUILDER_DIR_NAME}"
+cp -vf "${PACKAGE_LIST}" "./${IMAGEBUILDER_DIR_NAME}"
 
 ############################################################################################################
 # Run the build inside podman
 #
 
-podman run --rm -ti -v "${PWD}":/imagebuilder/ alpine sh /imagebuilder/"${IMAGEBUILDER_FILE_NAME/.tar.xz/}"/build.sh "${PROFILE}" "${IMAGEBUILDER_FILE_NAME/.tar.xz/}" "${PATH_TO_IMAGE_TMP}" "${PACKAGE_LIST}"
+podman run --rm -ti -v "${PWD}":/imagebuilder/ alpine sh /imagebuilder/"${IMAGEBUILDER_DIR_NAME}"/build.sh "${PROFILE}" "${IMAGEBUILDER_DIR_NAME}" "${PATH_TO_IMAGE_TMP}" "${PACKAGE_LIST}"
