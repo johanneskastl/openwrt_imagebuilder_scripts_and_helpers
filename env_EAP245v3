@@ -13,3 +13,4 @@ IMAGEBUILDER_DIR_NAME=openwrt-imagebuilder-22.03.5-ath79-generic.Linux-x86_64
 PACKAGE_LIST=Packages_EAP245v3.txt
 PATH_TO_IMAGE_TMP=target-mips_24kc_musl/linux-ath79_generic/tmp/
 PROFILE=tplink_eap245-v3
+DISABLED_SERVICES="dhcp"
