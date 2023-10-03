@@ -15,4 +15,4 @@ IMAGEBUILDER_DIR_NAME=openwrt-imagebuilder-ipq40xx-mikrotik.Linux-x86_64
 PACKAGE_LIST=Packages_Mikrotik_wAP_AC.txt
 PATH_TO_IMAGE_TMP=target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_mikrotik/tmp/
 PROFILE=mikrotik_wap-ac
-DISABLED_SERVICES="dhcp"
+DISABLED_SERVICES="firewall"
