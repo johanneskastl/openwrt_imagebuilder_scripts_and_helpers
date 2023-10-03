@@ -1,4 +1,4 @@
-all : clean container eap245v3 wrt1900acs
+all : clean container eap245v3 wrt1900acs mikrotik_wap_ac
 
 container :
 	podman build -t johanneskastl/openwrt-imagebuilder:alpine-latest .
