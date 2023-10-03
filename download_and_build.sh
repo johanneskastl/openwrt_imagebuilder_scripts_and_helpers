@@ -5,8 +5,15 @@ set -euo pipefail
 ############################################################################################################
 #
 #
-export env_file='env_Mikrotik_wAP_AC'
-source env_Mikrotik_wAP_AC
+{
+    [[ "$#" == "1" ]] && [[ -f "${1}" ]]
+} || {
+    echo "Please use the name of the env file as only argument. Aborting..."
+    exit 1
+}
+
+export env_file="${1}"
+source "${env_file}"
 
 [[ -z "${PROFILE}" ]] && {
     echo "PROFILE is not defined..."
