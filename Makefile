@@ -12,7 +12,7 @@ wrt1900acs :
 mikrotik_wap_ac :
 	./download_and_build.sh env_Mikrotik_wAP_AC
 
-clean : clean_eap245v3 clean_wrt1900acs
+clean : clean_eap245v3 clean_wrt1900acs clean_mikrotik_wap_ac
 
 clean_eap245v3 :
 	rm -vrf sha256sums_eap245v3 openwrt-imagebuilder-22.03.5-ath79-generic.Linux-x86_64.tar.xz openwrt-imagebuilder-22.03.5-ath79-generic.Linux-x86_64/
