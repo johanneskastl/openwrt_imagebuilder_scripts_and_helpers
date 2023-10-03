@@ -54,7 +54,7 @@ source "${env_file}"
 
 echo ""
 echo "Starting build.sh in podman container"
-podman run --rm -ti -v "${PWD}":/imagebuilder/ --env-file env_Mikrotik_wAP_AC alpine sh /imagebuilder/"${IMAGEBUILDER_DIR_NAME}"/build.sh
+podman run --rm -ti -v "${PWD}":/imagebuilder/ --env-file env_Mikrotik_wAP_AC openwrt-imagebuilder:alpine-latest sh /imagebuilder/"${IMAGEBUILDER_DIR_NAME}"/build.sh
 echo "Finished build in podman container"
 
 exit 0
