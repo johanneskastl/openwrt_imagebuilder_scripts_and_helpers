@@ -12,6 +12,7 @@ export DOWNLOAD_URL="https://downloads.openwrt.org/${OPENWRT_VERSION}/targets/ip
 #export IMAGEBUILDER_FILE_NAME="openwrt-imagebuilder-${OPENWRT_VERSION}-ipq40xx-mikrotik.Linux-x86_64.tar.xz"
 export SHASUMS_FILE="sha256sums_Mikrotik_wAP_AC"
 export IMAGEBUILDER_FILE_NAME="openwrt-imagebuilder-ipq40xx-mikrotik.Linux-x86_64.tar.xz"
+export IMAGEBUILDER_DIR_NAME="${IMAGEBUILDER_FILE_NAME/.tar.xz/}"
 export PACKAGE_LIST="Packages_Mikrotik_wAP_AC.txt"
 export PATH_TO_IMAGE_TMP="target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_mikrotik/tmp/"
 export PROFILE="mikrotik_wap-ac"
