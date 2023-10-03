@@ -5,6 +5,7 @@ set -euo pipefail
 ############################################################################################################
 #
 #
+export env_file='env_Mikrotik_wAP_AC'
 source env_Mikrotik_wAP_AC
 
 [[ -z "${PROFILE}" ]] && {
