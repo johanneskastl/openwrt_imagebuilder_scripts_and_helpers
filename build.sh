@@ -52,7 +52,7 @@ apk add argp-standalone asciidoc bash bc binutils bzip2 cdrkit coreutils \
 
 echo "Packages successfully installed"
 
-cd /imagebuilder/"${IMAGEBUILDER_FILE_NAME}" || exit 13
+cd /imagebuilder/"${IMAGEBUILDER_DIR_NAME}" || exit 13
 
 make clean
 
