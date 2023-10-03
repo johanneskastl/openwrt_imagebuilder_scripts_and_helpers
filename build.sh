@@ -51,6 +51,7 @@ cd /imagebuilder/"${IMAGEBUILDER_DIR_NAME}" || exit 13
 
 echo "Start cleaning up"
 make clean
+echo "Cleaning up finished"
 
 PACKAGES="$(cat ./"${PACKAGE_LIST}")"
 [ -z "${PACKAGES}" ] && exit 47
@@ -64,8 +65,8 @@ echo ""
 echo ""
 sleep 1
 
+echo "Starting build..."
 make image PACKAGES="${PACKAGES}" || exit 93
-
 echo "Finished building the image..."
 
 cp -afv ./build_dir/"${PATH_TO_IMAGE_TMP}"/*squashfs-sysupgrade.bin ../
