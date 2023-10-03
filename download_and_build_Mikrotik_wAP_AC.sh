@@ -4,7 +4,7 @@ set -euo pipefail
 
 export OPENWRT_VERSION="snapshots"
 
-#
+############################################################################################################
 # MikroTik wAP AC
 #
 #export DOWNLOAD_URL="https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/ipq40xx/mikrotik/"
@@ -16,7 +16,7 @@ export PATH_TO_IMAGE_TMP="target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40x
 export PROFILE="mikrotik_wap-ac"
 export SHASUMS_FILE="sha256sums_Mikrotik_wAP_AC"
 
-#
+############################################################################################################
 # Cleanup requested?
 #
 [[ $# == 1 ]] && [[ "$1" == "--clean" ]] && {
@@ -24,7 +24,7 @@ export SHASUMS_FILE="sha256sums_Mikrotik_wAP_AC"
     rm -rf "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}"
 }
 
-#
+############################################################################################################
 # Download and unpack
 #
 
@@ -47,14 +47,14 @@ else
     }
 fi
 
-#
+############################################################################################################
 # Copy files into openwrt imagebuilder directory
 #
  
 cp -vf build.sh "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}"
 cp -vf "${PACKAGE_LIST}" "./${IMAGEBUILDER_FILE_NAME/.tar.xz/}"
 
-#
+############################################################################################################
 # Run the build inside podman
 #
 
