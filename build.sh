@@ -54,6 +54,7 @@ echo "Packages successfully installed"
 
 cd /imagebuilder/"${IMAGEBUILDER_DIR_NAME}" || exit 13
 
+echo "Start cleaning up"
 make clean
 
 PACKAGES="$(cat ./"${PACKAGE_LIST}")"
