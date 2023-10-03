@@ -1,11 +1,36 @@
 #!/bin/sh
 
-PROFILE="$1"
-export PROFILE
-IMAGEBUILDER_FILE_NAME="$2"
-PATH_TO_IMAGE_TMP="$3"
-export PATH_TO_IMAGE_TMP
-PACKAGE_LIST="${4}"
+[ -z "${PROFILE}" ] && {
+    echo "PROFILE is not defined..."
+    exit 3
+}
+
+[ -z "${PACKAGE_LIST}" ] && {
+    echo "PACKAGE_LIST is not defined..."
+    exit 5
+}
+
+[ -z "${IMAGEBUILDER_FILE_NAME}" ] && {
+    echo "IMAGEBUILDER_FILE_NAMEis not defined..."
+    exit 7
+}
+
+[ -z "${IMAGEBUILDER_DIR_NAME}" ] && {
+    echo "IMAGEBUILDER_DIR_NAME is not defined..."
+    exit 9
+}
+
+[ -z "${PATH_TO_IMAGE_TMP}" ] && {
+    echo "PATH_TO_IMAGE_TMP is not defined..."
+    exit 11
+}
+
+[ -z "${DISABLED_SERVICES}" ] && {
+    echo "DISABLED_SERVICES is not defined..."
+    exit 13
+}
+
+echo "Ready for take-off..."
 
 ##################################################################################
 ##################################################################################
