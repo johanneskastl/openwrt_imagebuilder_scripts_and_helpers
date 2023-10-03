@@ -52,20 +52,9 @@ cd /imagebuilder/"${IMAGEBUILDER_DIR_NAME}" || exit 13
 echo "Start cleaning up"
 make clean
 echo "Cleaning up finished"
-
-PACKAGES="$(cat ./"${PACKAGE_LIST}")"
-[ -z "${PACKAGES}" ] && exit 47
-export PACKAGES
-echo "${PACKAGES}"
 echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-sleep 1
-
 echo "Starting build..."
+PACKAGES="$(cat ./"${PACKAGE_LIST}")"
 make image PACKAGES="${PACKAGES}" || exit 93
 echo "Finished building the image..."
 
