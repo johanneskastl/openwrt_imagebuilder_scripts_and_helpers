@@ -9,6 +9,9 @@ eap245v3 :
 wrt1900acs :
 	./download_and_build_WRT1900ACS.sh
 
+mikrotik_wap_ac :
+	./download_and_build.sh env_Mikrotik_wAP_AC
+
 clean : clean_eap245v3 clean_wrt1900acs
 
 clean_eap245v3 :
