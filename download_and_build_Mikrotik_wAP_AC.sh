@@ -2,20 +2,30 @@
 
 set -euo pipefail
 
-export OPENWRT_VERSION="snapshots"
-
 ############################################################################################################
-# MikroTik wAP AC
 #
-#export DOWNLOAD_URL="https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/ipq40xx/mikrotik/"
-export DOWNLOAD_URL="https://downloads.openwrt.org/${OPENWRT_VERSION}/targets/ipq40xx/mikrotik/"
-#export IMAGEBUILDER_FILE_NAME="openwrt-imagebuilder-${OPENWRT_VERSION}-ipq40xx-mikrotik.Linux-x86_64.tar.xz"
-export SHASUMS_FILE="sha256sums_Mikrotik_wAP_AC"
-export IMAGEBUILDER_FILE_NAME="openwrt-imagebuilder-ipq40xx-mikrotik.Linux-x86_64.tar.xz"
-export IMAGEBUILDER_DIR_NAME="${IMAGEBUILDER_FILE_NAME/.tar.xz/}"
-export PACKAGE_LIST="Packages_Mikrotik_wAP_AC.txt"
-export PATH_TO_IMAGE_TMP="target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_mikrotik/tmp/"
-export PROFILE="mikrotik_wap-ac"
+#
+source env_Mikrotik_wAP_AC
+
+[[ -z "${PROFILE}" ]] && {
+    echo "PROFILE is not defined..."
+    exit 3
+}
+
+[[ -z "${PACKAGE_LIST}" ]] && {
+    echo "PACKAGE_LIST is not defined..."
+    exit 5
+}
+
+[[ -z "${IMAGEBUILDER_DIR_NAME}" ]] && {
+    echo "IMAGEBUILDER_DIR_NAME is not defined..."
+    exit 7
+}
+
+[[ -z "${PATH_TO_IMAGE_TMP}" ]] && {
+    echo "PATH_TO_IMAGE_TMP is not defined..."
+    exit 9
+}
 
 ############################################################################################################
 # Cleanup requested?
