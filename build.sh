@@ -50,6 +50,8 @@ apk add argp-standalone asciidoc bash bc binutils bzip2 cdrkit coreutils \
 # w/o this - ERROR: package/boot/uboot-mvebu failed to build (build variant: clearfog)
 [ -e /usr/lib/libtinfo.so ] || ln -s /usr/lib/libncurses.so /usr/lib/libtinfo.so 
 
+echo "Packages successfully installed"
+
 cd /imagebuilder/"${IMAGEBUILDER_FILE_NAME}" || exit 13
 
 make clean
