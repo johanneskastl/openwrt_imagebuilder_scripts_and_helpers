@@ -7,7 +7,7 @@ eap245v3 :
 	./download_and_build.sh env_EAP245v3
 
 wrt1900acs :
-	./download_and_build_WRT1900ACS.sh
+	./download_and_build.sh env_WRT1900ACS
 
 mikrotik_wap_ac :
 	./download_and_build.sh env_Mikrotik_wAP_AC
