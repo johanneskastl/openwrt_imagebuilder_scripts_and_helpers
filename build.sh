@@ -25,11 +25,6 @@
     exit 11
 }
 
-[ -z "${DISABLED_SERVICES}" ] && {
-    echo "DISABLED_SERVICES is not defined..."
-    exit 13
-}
-
 echo "Ready for take-off..."
 
 ##################################################################################
