@@ -38,6 +38,7 @@ echo "Ready for take-off..."
 
 # https://openwrt.org/docs/guide-developer/toolchain/install-buildsystem
 
+echo "Installing packages in container..."
 apk add argp-standalone asciidoc bash bc binutils bzip2 cdrkit coreutils \
   diffutils elfutils-dev findutils flex musl-fts-dev g++ gawk gcc gettext git \
   grep gzip intltool libxslt linux-headers make musl-libintl musl-obstack-dev \
