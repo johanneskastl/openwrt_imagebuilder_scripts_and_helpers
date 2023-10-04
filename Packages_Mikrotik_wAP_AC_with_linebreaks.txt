@@ -50,6 +50,7 @@ python3-logging
 python3-multiprocessing
 python3-urllib
 rsync
+screen
 shadow-common
 shadow-groupmod
 shadow-useradd
