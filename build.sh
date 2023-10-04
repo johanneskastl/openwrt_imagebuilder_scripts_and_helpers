@@ -55,7 +55,7 @@ echo "Cleaning up finished"
 echo ""
 echo "Starting build..."
 PACKAGES="$(cat ./"${PACKAGE_LIST}")"
-make image PACKAGES="${PACKAGES}" || exit 93
+make image PACKAGES="${PACKAGES}" DISABLED_SERVICES="$(echo "${DISABLED_SERVICES}" | tr -d '"')" || exit 93
 echo "Finished building the image..."
 
 cp -afv ./build_dir/"${PATH_TO_IMAGE_TMP}"/*squashfs-sysupgrade.bin ../
