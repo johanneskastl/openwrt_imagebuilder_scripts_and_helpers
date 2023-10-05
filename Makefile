@@ -1,7 +1,7 @@
 all : clean container eap245v3 wrt1900acs mikrotik_wap_ac
 
 container :
-	podman image rm johanneskastl/openwrt-imagebuilder:alpine-latest
+	podman image rm johanneskastl/openwrt-imagebuilder:alpine-latest || true
 	podman build -t johanneskastl/openwrt-imagebuilder:alpine-latest .
 
 eap245v3 :
