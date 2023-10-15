@@ -3,8 +3,7 @@
 #
 OPENWRT_VERSION="23.05.0"
 
-#DOWNLOAD_URL="https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/ipq40xx/mikrotik/"
-DOWNLOAD_URL="https://downloads.openwrt.org/${OPENWRT_VERSION}/targets/ipq40xx/mikrotik/"
+DOWNLOAD_URL="https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/ipq40xx/mikrotik/"
 #IMAGEBUILDER_FILE_NAME="openwrt-imagebuilder-${OPENWRT_VERSION}-ipq40xx-mikrotik.Linux-x86_64.tar.xz"
 SHASUMS_FILE="sha256sums_Mikrotik_wAP_AC"
 IMAGEBUILDER_FILE_NAME="openwrt-imagebuilder-ipq40xx-mikrotik.Linux-x86_64.tar.xz"
