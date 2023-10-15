@@ -1,7 +1,7 @@
 #
 # MikroTik wAP AC
 #
-OPENWRT_VERSION="snapshots"
+OPENWRT_VERSION="23.05.0"
 
 #DOWNLOAD_URL="https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/ipq40xx/mikrotik/"
 DOWNLOAD_URL="https://downloads.openwrt.org/${OPENWRT_VERSION}/targets/ipq40xx/mikrotik/"
