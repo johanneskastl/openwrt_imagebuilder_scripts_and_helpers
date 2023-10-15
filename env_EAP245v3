@@ -1,7 +1,7 @@
 #
 # TP-Link EAP245v3
 #
-OPENWRT_VERSION="22.03.5"
+OPENWRT_VERSION="23.05.0"
 
 DOWNLOAD_URL="https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/ath79/generic/"
 SHASUMS_FILE="sha256sums_eap245v3"
