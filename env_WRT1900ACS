@@ -1,7 +1,7 @@
 #
 # TP-Link WRT1900ACS
 #
-OPENWRT_VERSION="22.03.5"
+OPENWRT_VERSION="23.05.0"
 
 DOWNLOAD_URL="https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/mvebu/cortexa9/"
 SHASUMS_FILE="sha256sums_wrt1900acs"
