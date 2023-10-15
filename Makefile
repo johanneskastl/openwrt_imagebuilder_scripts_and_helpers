@@ -16,10 +16,10 @@ mikrotik_wap_ac :
 clean : clean_eap245v3 clean_wrt1900acs clean_mikrotik_wap_ac
 
 clean_eap245v3 :
-	rm -vrf sha256sums_eap245v3 openwrt-imagebuilder-22.03.5-ath79-generic.Linux-x86_64.tar.xz openwrt-imagebuilder-22.03.5-ath79-generic.Linux-x86_64/
+	rm -vrf sha256sums_eap245v3 openwrt-imagebuilder-*ath79-generic.Linux-x86_64.tar.xz openwrt-imagebuilder*ath79-generic.Linux-x86_64/
 
 clean_wrt1900acs :
-	rm -vrf sha256sums_wrt1900acs openwrt-imagebuilder-22.03.5-mvebu-cortexa9.Linux-x86_64.tar.xz openwrt-imagebuilder-22.03.5-mvebu-cortexa9.Linux-x86_64/
+	rm -vrf sha256sums_wrt1900acs openwrt-imagebuilder-*mvebu-cortexa9.Linux-x86_64.tar.xz openwrt-imagebuilder*mvebu-cortexa9.Linux-x86_64/
 
 clean_mikrotik_wap_ac :
-	rm -vrf sha256sums_Mikrotik_wAP_AC openwrt-imagebuilder-ipq40xx-mikrotik.Linux-x86_64.tar.xz openwrt-imagebuilder-ipq40xx-mikrotik.Linux-x86_64/
+	rm -vrf sha256sums_Mikrotik_wAP_AC openwrt-imagebuilder*ipq40xx-mikrotik.Linux-x86_64.tar.xz openwrt-imagebuilder*ipq40xx-mikrotik.Linux-x86_64/
