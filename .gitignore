@@ -10,20 +10,20 @@ sha256sums_wrt1900acs
 sha256sums_Mikrotik_wAP_AC
 
 # image files for WRT1900ACS
-openwrt-22.03.5-mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin
-openwrt-22.03.5-mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin.sha256sum
-openwrt-22.03.5-mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin.sig
-openwrt-22.03.5-mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin.ucert
+openwrt*mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin
+openwrt*mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin.sha256sum
+openwrt*mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin.sig
+openwrt*mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin.ucert
 # image files for EAP245v3
-openwrt-22.03.5-ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin
-openwrt-22.03.5-ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.sha256sum
-openwrt-22.03.5-ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.sig
-openwrt-22.03.5-ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.ucert
+openwrt*ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin
+openwrt*ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.sha256sum
+openwrt*ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.sig
+openwrt*ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.ucert
 # image files for MikroTik wAP AC
-openwrt-ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin
-openwrt-ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.sha256sum
-openwrt-ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.sig
-openwrt-ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.ucert
+openwrt*ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin
+openwrt*ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.sha256sum
+openwrt*ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.sig
+openwrt*ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.ucert
 
 # ignore file containing user information
 files/etc/uci-defaults/00-home
