@@ -56,4 +56,3 @@ shadow-groupmod
 shadow-useradd
 shadow-usermod
 sudo
-vim-full
