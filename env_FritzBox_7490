@@ -1,0 +1,20 @@
+#
+# FritzBox 7490
+#
+OPENWRT_VERSION="snapshots"
+
+DOWNLOAD_URL="https://downloads.openwrt.org/${OPENWRT_VERSION}/targets/lantiq/xrx200/"
+SHASUMS_FILE="sha256sums_FritzBox_7490"
+
+IMAGEBUILDER_FILE_NAME="openwrt-imagebuilder-lantiq-xrx200.Linux-x86_64.tar.zst"
+
+# needs hardcoded OpenWRT version
+IMAGEBUILDER_DIR_NAME=openwrt-imagebuilder-lantiq-xrx200.Linux-x86_64
+
+#
+#
+PACKAGE_LIST=Packages_FritzBox_7490.txt
+PATH_TO_IMAGE_TMP=target-mips_24kc_musl/linux-lantiq_xrx200/tmp/
+PROFILE=avm_fritz7490
+DISABLED_SERVICES="dnsmasq firewall odhcpd"
+FILES=files
