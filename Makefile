@@ -1,4 +1,4 @@
-all : clean container eap245v3 wrt1900acs mikrotik_wap_ac
+all : clean container eap245v3 wrt1900acs mikrotik_wap_ac fritzbox_7490
 
 container :
 	podman image rm johanneskastl/openwrt-imagebuilder:alpine-latest || true
