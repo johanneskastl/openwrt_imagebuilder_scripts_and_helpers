@@ -13,6 +13,9 @@ wrt1900acs :
 mikrotik_wap_ac :
 	./download_and_build.sh env_Mikrotik_wAP_AC
 
+fritzbox_7490 :
+	./download_and_build.sh env_FritzBox_7490
+
 clean : clean_eap245v3 clean_wrt1900acs clean_mikrotik_wap_ac
 
 clean_eap245v3 :
