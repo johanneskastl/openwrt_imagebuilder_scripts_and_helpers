@@ -25,6 +25,11 @@ openwrt*ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin
 openwrt*ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.sha256sum
 openwrt*ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.sig
 openwrt*ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.ucert
+# image files for FritzBox 7490
+openwrt*lantiq-xrx200-avm_fritz7490-squashfs-sysupgrade.bin
+openwrt*lantiq-xrx200-avm_fritz7490-squashfs-sysupgrade.bin.sha256sum
+openwrt*lantiq-xrx200-avm_fritz7490-squashfs-sysupgrade.bin.sig
+openwrt*lantiq-xrx200-avm_fritz7490-squashfs-sysupgrade.bin.ucert
 
 # ignore file containing user information
 files/etc/uci-defaults/00-home
