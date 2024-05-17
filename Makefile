@@ -16,7 +16,7 @@ mikrotik_wap_ac :
 fritzbox_7490 :
 	./download_and_build.sh env_FritzBox_7490
 
-clean : clean_eap245v3 clean_wrt1900acs clean_mikrotik_wap_ac
+clean : clean_eap245v3 clean_wrt1900acs clean_mikrotik_wap_ac clean_fritzbox_7490
 
 clean_eap245v3 :
 	rm -vrf sha256sums_eap245v3 openwrt-imagebuilder-*ath79-generic.Linux-x86_64.tar.xz openwrt-imagebuilder*ath79-generic.Linux-x86_64/
