@@ -28,4 +28,4 @@ clean_mikrotik_wap_ac :
 	rm -vrf sha256sums_Mikrotik_wAP_AC openwrt-imagebuilder*ipq40xx-mikrotik.Linux-x86_64.tar.xz openwrt-imagebuilder*ipq40xx-mikrotik.Linux-x86_64/
 
 clean_fritzbox_7490 :
-	rm -vrf sha256sums_FritzBox_7490 openwrt-imagebuilder*lantiq-xrx200.Linux-x86_64.tar.xz openwrt-imagebuilder*lantiq-xrx200.Linux-x86_64/
+	rm -vrf sha256sums_FritzBox_7490 openwrt-imagebuilder*lantiq-xrx200.Linux-x86_64.tar.* openwrt-imagebuilder*lantiq-xrx200.Linux-x86_64/
