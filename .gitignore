@@ -14,21 +14,25 @@ sha256sums_FritzBox_7490
 # image files for WRT1900ACS
 openwrt*mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin
 openwrt*mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin.sha256sum
+openwrt*mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin.sha256
 openwrt*mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin.sig
 openwrt*mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin.ucert
 # image files for EAP245v3
 openwrt*ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin
 openwrt*ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.sha256sum
+openwrt*ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.sha256
 openwrt*ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.sig
 openwrt*ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin.ucert
 # image files for MikroTik wAP AC
 openwrt*ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin
 openwrt*ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.sha256sum
+openwrt*ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.sha256
 openwrt*ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.sig
 openwrt*ipq40xx-mikrotik-mikrotik_wap-ac-squashfs-sysupgrade.bin.ucert
 # image files for FritzBox 7490
 openwrt*lantiq-xrx200-avm_fritz7490-squashfs-sysupgrade.bin
 openwrt*lantiq-xrx200-avm_fritz7490-squashfs-sysupgrade.bin.sha256sum
+openwrt*lantiq-xrx200-avm_fritz7490-squashfs-sysupgrade.bin.sha256
 openwrt*lantiq-xrx200-avm_fritz7490-squashfs-sysupgrade.bin.sig
 openwrt*lantiq-xrx200-avm_fritz7490-squashfs-sysupgrade.bin.ucert
 
