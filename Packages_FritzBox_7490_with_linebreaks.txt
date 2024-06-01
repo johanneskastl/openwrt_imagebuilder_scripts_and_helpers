@@ -31,8 +31,8 @@ luci-mod-admin-full
 luci-mod-network
 luci-mod-status
 luci-mod-system
-luci-proto
 luci-proto-ipv6
+luci-proto-wireguard
 luci-ssl
 luci-theme-bootstrap
 netifd
