@@ -27,9 +27,11 @@
 -libnftnl
 bash
 busybox
+ca-bundle
 diffutils
 dropbear
 dropbearconvert
+getrandom
 luci
 luci-app-attendedsysupgrade
 luci-app-opkg
@@ -42,10 +44,12 @@ luci-proto
 luci-proto-ipv6
 luci-ssl
 luci-theme-bootstrap
+openssh-keygen
 openssh-server-pam
 openssh-sftp-server
 python3-ctypes
 python3-distutils
+python3-email
 python3-light
 python3-logging
 python3-multiprocessing
@@ -57,3 +61,4 @@ shadow-groupmod
 shadow-useradd
 shadow-usermod
 sudo
+vim-full
