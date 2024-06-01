@@ -38,6 +38,7 @@ luci-mod-admin-full
 luci-mod-network
 luci-mod-status
 luci-mod-system
+luci-proto
 luci-proto-ipv6
 luci-ssl
 luci-theme-bootstrap
