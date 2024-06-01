@@ -58,4 +58,3 @@ shadow-useradd
 shadow-usermod
 sudo
 vim-full
-wireguard-tools
