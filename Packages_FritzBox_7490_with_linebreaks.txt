@@ -8,6 +8,8 @@ bash
 busybox
 ca-bundle
 ca-certificates
+crowdsec
+crowdsec-firewall-bouncer
 curl
 ddns-scripts
 ddns-scripts-services
