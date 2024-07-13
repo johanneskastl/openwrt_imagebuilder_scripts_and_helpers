@@ -53,5 +53,13 @@ echo "Finished building the image..."
 
 cp -afv ./build_dir/"${PATH_TO_IMAGE_TMP}"/*squashfs-sysupgrade.bin ../
 
+cd ..
+
+for file in *squashfs-sysupgrade.bin
+do
+    echo "Checksum for ${file}"
+    [ -e "${file}.sha256" ] || sha256sum "${file}" > "${file}.sha256"
+done
+
 echo "Finished, good bye..."
 exit 0
