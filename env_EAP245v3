@@ -1,7 +1,7 @@
 #
 # TP-Link EAP245v3
 #
-OPENWRT_VERSION="23.05.4"
+OPENWRT_VERSION="23.05.5"
 
 DOWNLOAD_URL="https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/ath79/generic/"
 SHASUMS_FILE="sha256sums_eap245v3"
@@ -9,7 +9,7 @@ SHASUMS_FILE="sha256sums_eap245v3"
 IMAGEBUILDER_FILE_NAME="openwrt-imagebuilder-${OPENWRT_VERSION}-ath79-generic.Linux-x86_64.tar.xz"
 
 # needs hardcoded OpenWRT version
-IMAGEBUILDER_DIR_NAME=openwrt-imagebuilder-23.05.4-ath79-generic.Linux-x86_64
+IMAGEBUILDER_DIR_NAME=openwrt-imagebuilder-23.05.5-ath79-generic.Linux-x86_64
 
 #
 #
