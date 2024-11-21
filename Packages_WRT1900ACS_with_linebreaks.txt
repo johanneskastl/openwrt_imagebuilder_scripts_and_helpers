@@ -39,6 +39,7 @@ kmod-nft-fib
 kmod-nft-nat
 kmod-nft-offload
 kmod-slhc
+kmod-wireguard
 libblobmsg-json
 libc
 libiwinfo
@@ -75,6 +76,7 @@ luci-mod-network
 luci-mod-status
 luci-mod-system
 luci-proto-ipv6
+luci-proto-wireguard
 luci-ssl
 luci-theme-bootstrap
 mtd
