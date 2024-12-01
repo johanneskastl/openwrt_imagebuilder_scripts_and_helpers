@@ -35,6 +35,12 @@ openwrt*lantiq-xrx200-avm_fritz7490-squashfs-sysupgrade.bin.sha256sum
 openwrt*lantiq-xrx200-avm_fritz7490-squashfs-sysupgrade.bin.sha256
 openwrt*lantiq-xrx200-avm_fritz7490-squashfs-sysupgrade.bin.sig
 openwrt*lantiq-xrx200-avm_fritz7490-squashfs-sysupgrade.bin.ucert
+# image files for FritzBox 7490 Micron
+openwrt*lantiq-xrx200-avm_fritz7490-micron-squashfs-sysupgrade.bin
+openwrt*lantiq-xrx200-avm_fritz7490-micron-squashfs-sysupgrade.bin.sha256sum
+openwrt*lantiq-xrx200-avm_fritz7490-micron-squashfs-sysupgrade.bin.sha256
+openwrt*lantiq-xrx200-avm_fritz7490-micron-squashfs-sysupgrade.bin.sig
+openwrt*lantiq-xrx200-avm_fritz7490-micron-squashfs-sysupgrade.bin.ucert
 
 # ignore file containing user information
 files/etc/uci-defaults/00-home
