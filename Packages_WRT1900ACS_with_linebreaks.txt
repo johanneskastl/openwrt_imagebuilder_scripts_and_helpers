@@ -95,7 +95,6 @@ opkg
 procd
 procd-seccomp
 procd-ujail
-python3-base
 python3-ctypes
 python3-decimal
 python3-email
