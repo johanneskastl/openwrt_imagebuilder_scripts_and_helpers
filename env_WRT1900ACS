@@ -6,7 +6,7 @@ OPENWRT_VERSION="24.10.0"
 DOWNLOAD_URL="https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/mvebu/cortexa9/"
 SHASUMS_FILE="sha256sums_wrt1900acs"
 
-IMAGEBUILDER_FILE_NAME=openwrt-imagebuilder-${OPENWRT_VERSION}-mvebu-cortexa9.Linux-x86_64.tar.xz
+IMAGEBUILDER_FILE_NAME=openwrt-imagebuilder-${OPENWRT_VERSION}-mvebu-cortexa9.Linux-x86_64.tar.zst
 
 # needs hardcoded OpenWRT version
 IMAGEBUILDER_DIR_NAME=openwrt-imagebuilder-24.10.0-mvebu-cortexa9.Linux-x86_64
