@@ -20,8 +20,6 @@ fstools
 fwtool
 getrandom
 iwinfo
-kmod-crypto-crc32c
-kmod-crypto-hash
 kmod-gpio-button-hotplug
 kmod-mwlwifi
 kmod-wireguard
