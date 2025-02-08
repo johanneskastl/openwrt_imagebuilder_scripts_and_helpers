@@ -1,15 +1,15 @@
 #
 # FritzBox 7490 Micron
 #
-OPENWRT_VERSION="snapshots"
+OPENWRT_VERSION="24.10.0"
 
-DOWNLOAD_URL="https://downloads.openwrt.org/${OPENWRT_VERSION}/targets/lantiq/xrx200/"
+DOWNLOAD_URL="https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/lantiq/xrx200/"
 SHASUMS_FILE="sha256sums_FritzBox_7490_Micron"
 
-IMAGEBUILDER_FILE_NAME="openwrt-imagebuilder-lantiq-xrx200.Linux-x86_64.tar.zst"
+IMAGEBUILDER_FILE_NAME="openwrt-imagebuilder-24.10.0-lantiq-xrx200.Linux-x86_64.tar.zst"
 
 # needs hardcoded OpenWRT version
-IMAGEBUILDER_DIR_NAME=openwrt-imagebuilder-lantiq-xrx200.Linux-x86_64
+IMAGEBUILDER_DIR_NAME=openwrt-imagebuilder-24.10.0-lantiq-xrx200.Linux-x86_64
 
 #
 #
