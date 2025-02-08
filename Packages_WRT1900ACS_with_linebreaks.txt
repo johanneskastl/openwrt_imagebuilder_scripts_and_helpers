@@ -60,7 +60,6 @@ luci-proto-ipv6
 luci-proto-wireguard
 luci-ssl
 luci-theme-bootstrap
-mtd
 mwlwifi-firmware-88w8864
 netifd
 nftables-json
