@@ -45,7 +45,6 @@ kmod-nft-nat
 kmod-nft-offload
 kmod-slhc
 kmod-wireguard
-lua
 luci
 luci-app-advanced-reboot
 luci-app-attendedsysupgrade
