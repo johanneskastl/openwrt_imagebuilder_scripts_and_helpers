@@ -10,6 +10,7 @@ sha256sums_eap245v3
 sha256sums_wrt1900acs
 sha256sums_Mikrotik_wAP_AC
 sha256sums_FritzBox_7490
+sha256sums_FritzBox_7490_Micron
 
 # image files for WRT1900ACS
 openwrt*mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin
