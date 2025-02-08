@@ -20,7 +20,6 @@ fstools
 fwtool
 getrandom
 iwinfo
-jshn
 jsonfilter
 kernel
 kmod-crypto-crc32c
