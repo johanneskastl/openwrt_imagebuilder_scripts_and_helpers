@@ -67,8 +67,6 @@ sudo
 ubi-utils
 uboot-envtools
 ubox
-ubus
-ubusd
 uci
 uclient-fetch
 uhttpd
