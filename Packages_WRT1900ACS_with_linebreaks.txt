@@ -101,6 +101,7 @@ procd-seccomp
 procd-ujail
 python3-base
 python3-ctypes
+python3-decimal
 python3-email
 python3-light
 python3-logging
@@ -112,6 +113,7 @@ rpcd-mod-iwinfo
 rpcd-mod-luci
 rpcd-mod-rrdns
 rsync
+screen
 shadow-groupmod
 shadow-useradd
 shadow-usermod
