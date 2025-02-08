@@ -24,8 +24,6 @@ kernel
 kmod-crypto-crc32c
 kmod-crypto-hash
 kmod-gpio-button-hotplug
-kmod-lib-crc-ccitt
-kmod-lib-crc32c
 kmod-mwlwifi
 kmod-wireguard
 luci
