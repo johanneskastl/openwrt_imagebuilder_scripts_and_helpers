@@ -64,12 +64,4 @@ shadow-groupmod
 shadow-useradd
 shadow-usermod
 sudo
-ubi-utils
-uboot-envtools
-ubox
-uci
-uclient-fetch
-urandom-seed
-urngd
-usign
 vim-full
