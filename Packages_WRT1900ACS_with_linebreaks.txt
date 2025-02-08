@@ -28,7 +28,6 @@ kmod-lib-crc-ccitt
 kmod-lib-crc32c
 kmod-mwlwifi
 kmod-nfnetlink
-kmod-slhc
 kmod-wireguard
 luci
 luci-app-advanced-reboot
