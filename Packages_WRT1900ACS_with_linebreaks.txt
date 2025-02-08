@@ -16,7 +16,6 @@ dropbear
 dropbearconvert
 e2fsprogs
 firewall4
-fwtool
 getrandom
 iwinfo
 kmod-mwlwifi
