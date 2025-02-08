@@ -7,6 +7,7 @@
 bash
 busybox
 ca-bundle
+ca-certificates
 dnsmasq
 dropbear
 dropbearconvert
