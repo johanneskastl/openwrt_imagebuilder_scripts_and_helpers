@@ -20,7 +20,6 @@ fstools
 fwtool
 getrandom
 iwinfo
-jansson
 jshn
 jsonfilter
 kernel
