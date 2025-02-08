@@ -20,7 +20,6 @@ fstools
 fwtool
 getrandom
 iwinfo
-kmod-gpio-button-hotplug
 kmod-mwlwifi
 kmod-wireguard
 luci
