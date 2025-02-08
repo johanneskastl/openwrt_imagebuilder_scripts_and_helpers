@@ -69,8 +69,6 @@ uboot-envtools
 ubox
 uci
 uclient-fetch
-uhttpd
-uhttpd-mod-ubus
 urandom-seed
 urngd
 usign
