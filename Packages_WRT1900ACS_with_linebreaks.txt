@@ -46,7 +46,6 @@ kmod-nft-offload
 kmod-slhc
 kmod-wireguard
 libblobmsg-json
-libc
 libiwinfo
 libiwinfo-data
 libiwinfo-lua
