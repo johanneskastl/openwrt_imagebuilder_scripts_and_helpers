@@ -37,7 +37,6 @@ luci-ssl
 luci-theme-bootstrap
 mwlwifi-firmware-88w8864
 netifd
-nftables-json
 odhcp6c
 odhcpd-ipv6only
 openssh-keygen
