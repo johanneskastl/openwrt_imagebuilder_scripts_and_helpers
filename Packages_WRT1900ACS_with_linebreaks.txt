@@ -54,9 +54,6 @@ openssh-server-pam
 openssh-sftp-server
 openwrt-keyring
 opkg
-procd
-procd-seccomp
-procd-ujail
 python3-ctypes
 python3-decimal
 python3-email
