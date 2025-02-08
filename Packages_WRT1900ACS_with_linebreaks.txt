@@ -9,6 +9,8 @@ busybox
 ca-bundle
 ca-certificates
 curl
+ddns-scripts
+ddns-scripts-services
 dnsmasq
 dropbear
 dropbearconvert
