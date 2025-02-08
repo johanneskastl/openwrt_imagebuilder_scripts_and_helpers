@@ -44,7 +44,6 @@ luci-theme-bootstrap
 openssh-server-pam
 openssh-sftp-server
 python3-ctypes
-python3-distutils
 python3-light
 python3-logging
 python3-multiprocessing
