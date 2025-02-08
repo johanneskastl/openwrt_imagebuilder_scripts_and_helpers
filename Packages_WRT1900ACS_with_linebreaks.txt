@@ -60,11 +60,6 @@ python3-light
 python3-logging
 python3-multiprocessing
 python3-urllib
-rpcd
-rpcd-mod-file
-rpcd-mod-iwinfo
-rpcd-mod-luci
-rpcd-mod-rrdns
 rsync
 screen
 shadow-common
