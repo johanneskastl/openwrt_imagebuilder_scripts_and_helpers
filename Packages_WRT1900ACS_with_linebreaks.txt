@@ -4,6 +4,7 @@
 -luci-proto-ppp
 -ppp
 -ppp-mod-pppoe
+base-files
 bash
 busybox
 ca-bundle
