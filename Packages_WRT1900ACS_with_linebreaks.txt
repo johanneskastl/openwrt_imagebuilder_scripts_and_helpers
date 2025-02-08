@@ -28,10 +28,6 @@ kmod-lib-crc-ccitt
 kmod-lib-crc32c
 kmod-mwlwifi
 kmod-nfnetlink
-kmod-nft-core
-kmod-nft-fib
-kmod-nft-nat
-kmod-nft-offload
 kmod-slhc
 kmod-wireguard
 luci
