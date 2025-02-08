@@ -71,10 +71,6 @@ ubus
 ubusd
 uci
 uclient-fetch
-ucode
-ucode-mod-fs
-ucode-mod-ubus
-ucode-mod-uci
 uhttpd
 uhttpd-mod-ubus
 urandom-seed
