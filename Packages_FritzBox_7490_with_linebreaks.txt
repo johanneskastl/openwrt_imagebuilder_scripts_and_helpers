@@ -44,6 +44,7 @@ openssh-server-pam
 openssh-sftp-server
 openwrt-keyring
 python3-ctypes
+python3-decimal
 python3-email
 python3-light
 python3-logging
