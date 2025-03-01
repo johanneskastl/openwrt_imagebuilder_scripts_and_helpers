@@ -4,19 +4,19 @@ container :
 	podman image rm johanneskastl/openwrt-imagebuilder:alpine-latest || true
 	podman build -t johanneskastl/openwrt-imagebuilder:alpine-latest .
 
-eap245v3 :
+eap245v3 : container
 	./download_and_build.sh env_EAP245v3
 
-wrt1900acs :
+wrt1900acs : container
 	./download_and_build.sh env_WRT1900ACS
 
-mikrotik_wap_ac :
+mikrotik_wap_ac : container
 	./download_and_build.sh env_Mikrotik_wAP_AC
 
-fritzbox_7490 :
+fritzbox_7490 : container
 	./download_and_build.sh env_FritzBox_7490
 
-fritzbox_7490_micron :
+fritzbox_7490_micron : container
 	./download_and_build.sh env_FritzBox_7490_Micron
 
 clean : clean_eap245v3 clean_wrt1900acs clean_mikrotik_wap_ac clean_fritzbox_7490 clean_fritzbox_7490_micron
