@@ -16,3 +16,4 @@ IMAGEBUILDER_DIR_NAME=openwrt-imagebuilder-24.10.0-mvebu-cortexa9.Linux-x86_64
 PACKAGE_LIST=Packages_WRT1900ACS.txt
 PATH_TO_IMAGE_TMP=target-arm_cortex-a9+vfpv3-d16_musl_eabi/linux-mvebu_cortexa9/tmp
 PROFILE=linksys_wrt1900acs
+FILES=files
