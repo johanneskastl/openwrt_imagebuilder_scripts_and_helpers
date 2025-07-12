@@ -1,7 +1,7 @@
 #
 # MikroTik wAP AC
 #
-OPENWRT_VERSION="24.10.1"
+OPENWRT_VERSION="24.10.2"
 
 DOWNLOAD_URL="https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/ipq40xx/mikrotik/"
 SHASUMS_FILE="sha256sums_Mikrotik_wAP_AC"
@@ -9,7 +9,7 @@ SHASUMS_FILE="sha256sums_Mikrotik_wAP_AC"
 IMAGEBUILDER_FILE_NAME="openwrt-imagebuilder-${OPENWRT_VERSION}-ipq40xx-mikrotik.Linux-x86_64.tar.zst"
 
 # needs hardcoded OpenWRT version
-IMAGEBUILDER_DIR_NAME=openwrt-imagebuilder-24.10.1-ipq40xx-mikrotik.Linux-x86_64
+IMAGEBUILDER_DIR_NAME=openwrt-imagebuilder-24.10.2-ipq40xx-mikrotik.Linux-x86_64
 
 #
 #
