@@ -1,7 +1,7 @@
 #
 # FritzBox 7490
 #
-OPENWRT_VERSION="24.10.1"
+OPENWRT_VERSION="24.10.2"
 
 DOWNLOAD_URL="https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/lantiq/xrx200/"
 SHASUMS_FILE="sha256sums_FritzBox_7490"
@@ -9,7 +9,7 @@ SHASUMS_FILE="sha256sums_FritzBox_7490"
 IMAGEBUILDER_FILE_NAME="openwrt-imagebuilder-${OPENWRT_VERSION}-lantiq-xrx200.Linux-x86_64.tar.zst"
 
 # needs hardcoded OpenWRT version
-IMAGEBUILDER_DIR_NAME=openwrt-imagebuilder-24.10.1-lantiq-xrx200.Linux-x86_64
+IMAGEBUILDER_DIR_NAME=openwrt-imagebuilder-24.10.2-lantiq-xrx200.Linux-x86_64
 
 #
 #
