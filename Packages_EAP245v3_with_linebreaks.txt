@@ -29,7 +29,6 @@ bash
 busybox
 diffutils
 dropbear
-dropbearconvert
 luci
 luci-app-attendedsysupgrade
 luci-app-opkg
